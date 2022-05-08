@@ -3,11 +3,11 @@ import java.io.FileInputStream
 import java.util.Base64
 
 plugins {
-    kotlin("multiplatform") version "1.5.21"
+    kotlin("multiplatform") version "1.6.10"
     // Tests
     jacoco
     // Docs
-    id("org.jetbrains.dokka") version "1.5.0"
+    id("org.jetbrains.dokka") version "1.6.0"
     // Publishing
     id("io.github.gradle-nexus.publish-plugin") version "1.1.0"
     `maven-publish`
@@ -15,7 +15,7 @@ plugins {
 }
 
 group = "dev.kdrag0n"
-version = "1.0.3"
+version = "1.0.5"
 
 repositories {
     mavenCentral()
